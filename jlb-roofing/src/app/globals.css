@@ -1,0 +1,12 @@
+/* globals.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;/* Ensure full height */
+  width: 100%;
+  overflow-x: hidden;
+  background-image: url('/background1.JPG');
+  background-size: cover ;
+  background-attachment: fixed;
+  background-position: center;
+ };

@@ -1,0 +1,99 @@
+/* Hero.module.css */
+  .hero {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Adjusted to 50% of the viewport height */
+    text-align: center; /* Center the text content */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    position: relative; /* For positioning elements inside absolutely if needed */
+    color: #fff; /* Text color */
+    padding: 150px; /* Ensures content does not touch the edges */
+  }
+  
+    .heroContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center; /* Center the text inside the hero content */
+      border-radius: 10px;
+      width: 100%;
+    }
+  
+    
+  
+    .heroContent button {
+      background-color: rgb(0, 0, 0); /* Sets the button background to gold */
+      font-weight: bold;
+      font-size: 2rem;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #000; /* Sets the button text color to contrast, e.g., black */
+      border: none; /* Removes any default border */
+      padding: 15px 30px; /* Adjust padding as needed */
+      cursor: pointer; /* Changes the cursor to a pointer on hover */
+      transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+      text-decoration: none;
+    }
+  
+    .heroH1 {
+      color: white;
+      ;
+      font-size: 4rem;
+      height: auto; 
+      margin-bottom: 15px ;
+  
+    }
+  
+    .heroContent P {
+      color: rgb(255, 255, 255);
+      font-size: 2rem;
+    }
+  
+    
+    .heroButton:hover {
+      background-color: rgb(211, 100, 10); /* Darker gold color on hover for better interaction feedback */
+    }
+  
+  
+  
+  @media (max-width: 768px) {
+    .heroH1 {
+      font-size: 24px; /* Even smaller font size for mobile */
+    }
+  
+    .heroP {
+      font-size: 16px; /* Adjust text size for readability */
+    }
+  
+    .heroContent button {
+      font-size: 14px; /* Smaller button font size for compact appearance */
+    }
+  
+    .heroContent {
+      height: auto;
+      padding: 30px; /* Reduce padding to save space */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero {
+      padding: 100px 10px; /* Minimize padding for very small screens */
+    }
+  
+    .heroContent {
+      padding: 20px;
+    }
+  
+    .ctaForm input[type="text"],
+    .ctaForm input[type="tel"],
+    .ctaForm input[type="email"] {
+      padding: 10px; /* Slightly smaller padding in inputs for small screens */
+    }
+  
+    .heroContent button {
+      padding: 10px 20px; /* Smaller buttons */
+    }
+  }
