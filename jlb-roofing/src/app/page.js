@@ -13,11 +13,11 @@ import Contact from "./components/Contact";
 import HowWeStarted from "./components/Start";
 
 const imagesList = [
-  {url: '/JLBphoto1.png', alt: 'First Image', type: 'image'},
+  {url: '/JLBphoto5.png', alt: 'First Image', type: 'image'},
   {url: '/JLbphoto2.png', alt: 'Second Image', type: 'image'},
   {url: '/JLBphoto3.png', alt: 'Third Image', type: 'image'},
   {url: '/JLBphoto4.png', alt: 'Fourth Image', type: 'image'},
-  {url: '/JLBphoto5.png', alt: 'Fourth Image', type: 'image'},
+  {url: '/JLBphoto1.png', alt: 'Fourth Image', type: 'image'},
 ];
 
 
