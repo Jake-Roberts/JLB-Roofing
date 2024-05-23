@@ -1,5 +1,6 @@
 /* Hero.module.css */
   .hero {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
@@ -10,6 +11,10 @@
     position: relative; /* For positioning elements inside absolutely if needed */
     color: #fff; /* Text color */
     padding: 150px; /* Ensures content does not touch the edges */
+    background-image: url('/background.png');
+    background-size: cover ;
+    background-attachment: fixed;
+    background-position: center;
   }
   
     .heroContent {
@@ -25,8 +30,9 @@
     
   
     .heroContent button {
-      background-color: rgb(0, 0, 0); /* Sets the button background to gold */
-      font-weight: bold;
+      background-color:#FF6600;  /* Sets the button background to gold */
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
       font-size: 2rem;
       letter-spacing: 1px;
       text-align: center;
@@ -39,9 +45,8 @@
     }
   
     .heroH1 {
-      color: white;
-      ;
-      font-size: 4rem;
+      color: #FF6600;
+      font-size: 7rem;
       height: auto; 
       margin-bottom: 15px ;
   
@@ -49,7 +54,8 @@
   
     .heroContent P {
       color: rgb(255, 255, 255);
-      font-size: 2rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 3rem;
     }
   
     

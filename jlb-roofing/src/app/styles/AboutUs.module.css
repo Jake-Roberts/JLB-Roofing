@@ -7,7 +7,7 @@
     justify-content: center; /* Horizontally centers children in the container */
     gap: 20px; /* Optional: Adds space between the image and text */
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: rgb(233, 229, 229);
   }
   
   /* Style adjustments for the missionImage */
@@ -38,14 +38,14 @@
   .missionContent h2 {
     font-size: 2.5rem; /* Makes the h2 larger. Adjust size as needed */
     margin-bottom: 40px; /* Adds space below the h2 */
-    color: white;
+    color: #FF6600;
     justify-content: center;
   }
   
   .missionContent h3 {
     font-size: 1.8rem;
     justify-content: center;
-    color: gold;
+    color: rgb(0, 0, 0);
   
   }
   

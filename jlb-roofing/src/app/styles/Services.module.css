@@ -3,18 +3,15 @@
 .services {
     height: auto;
     color: white; /* Default text color */
-    padding: 50px 20px; /* Adjust spacing around the content */
-    margin: 100px 20px; /* Adjusted margin to prevent overflow on smaller screens */
   }
   
   .servicesContent {
-    background-color: rgba(0, 0, 0, 0.705); /* Semi-transparent background */
-    max-width: 1300px; /* Adjust based on your design */
+    background-color: rgb(39, 39, 39); /* Semi-transparent background */
+    
     margin: auto; /* Center the content */
     display: flex;
     flex-direction: column;
     align-items: center; /* Center items vertically */
-    border-radius: 10px;
     height: auto;
     justify-content: center;
     background-position: center;
@@ -24,13 +21,13 @@
   .header {
     font-size: 2rem; /* Adjusted font size */
     margin: 2rem;
-    color: white; /* Main header color */
+    color: #FF6600; /* Main header color */
     margin-bottom: 20px; /* Spacing between header and subheader */
   }
   
   .subHeader {
     font-size: 1.5rem; /* Adjusted font size */
-    color: gold; /* Subheader color */
+    color: #ffffff; /* Subheader color */
     margin-bottom: 50px; /* Adjusted spacing between subheader and paragraphs */
   }
   
@@ -53,7 +50,7 @@
   }
   
   .servicesButton, .servicesButton a {
-    background-color: gold; /* Sets the button background to gold */
+    background-color: #FF6600; /* Sets the button background to gold */
     font-weight: bold;
     font-size: 1.2rem;
     letter-spacing: 1px;

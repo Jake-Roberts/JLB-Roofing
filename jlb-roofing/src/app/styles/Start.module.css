@@ -1,0 +1,24 @@
+/* Start.module.css */
+.startContainer {
+    padding: 50px;
+    color: #333; /* Dark grey text */
+}
+
+.startContent {
+    max-width: 800px; /* Good width for readability */
+    margin: auto; /* Centers the content */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.507); /* White background for the content */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds subtle shadow */
+}
+
+.startContent h2 {
+    color: #ffffff; /* Blue color for headings */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.startContent p {
+    color:#ffffff;
+    line-height: 1.6; /* Increases line spacing for better readability */
+    text-align: justify; /* Justifies the text */
+}

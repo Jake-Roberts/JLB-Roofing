@@ -10,6 +10,7 @@ import Gallery from "./components/Gallery";
 import OurMission from "./components/AboutUs";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
+import HowWeStarted from "./components/Start";
 
 const imagesList = [
   {url: '/JLBphoto1.png', alt: 'First Image', type: 'image'},
@@ -29,15 +30,18 @@ export default function Home() {
         <div id="hero" className={styles.hero}>
           <Hero />
         </div>
-        <section id="ourMission" className={styles.ourMission}>
-          <OurMission />
-        </section> 
         <section id="services" className={styles.services}>
           <Services/>
         </section>
+        <section id="ourMission" className={styles.ourMission}>
+          <OurMission />
+        </section> 
         <div id="ourWork" className={styles.gallery}>
           <Gallery images= {imagesList}/>
         </div> 
+        <section id="howWeStarted" className={styles.howWeStarted}>
+          <HowWeStarted />
+        </section> 
       </main>
       <footer id="contact">
         <Contact/>
