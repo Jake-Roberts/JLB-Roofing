@@ -21,7 +21,7 @@ const Contact = () => {
             </div>
             <div className={styles.contactInfo}>
                 <div>
-                    Phone: 801-6451647 <br/>
+                    Phone: 801-645-1647 <br/>
                     Email: projects.jlbroofing@gmail.com <br/>     
                 </div>
             </div>
