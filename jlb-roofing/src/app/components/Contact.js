@@ -21,8 +21,8 @@ const Contact = () => {
             </div>
             <div className={styles.contactInfo}>
                 <div>
-                    Phone: 214-641-8544 <br/>
-                    Email: jlbroofing.utah@gmail.com <br/>     
+                    Phone: 801-6451647 <br/>
+                    Email: projects.jlbroofing@gmail.com <br/>     
                 </div>
             </div>
             
