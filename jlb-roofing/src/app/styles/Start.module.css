@@ -1,24 +1,59 @@
 /* Start.module.css */
 .startContainer {
-    padding: 50px;
     color: #333; /* Dark grey text */
+    justify-content: center;
+    align-items: center;
+    height: auto;
 }
 
 .startContent {
-    max-width: 800px; /* Good width for readability */
+    justify-content: center;
+    align-content: center;
     margin: auto; /* Centers the content */
     padding: 20px;
-    background: rgba(0, 0, 0, 0.507); /* White background for the content */
+    background: rgb(236, 232, 232); /* White background for the content */
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds subtle shadow */
 }
 
 .startContent h2 {
-    color: #ffffff; /* Blue color for headings */
+    justify-content: center;
+    font-size: 5rem;
+    align-items: center;
+    color: #FF6600; /* Blue color for headings */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-bottom: 20px; /* Space below the heading */
+    text-align: center;
 }
 
 .startContent p {
-    color:#ffffff;
-    line-height: 1.6; /* Increases line spacing for better readability */
-    text-align: justify; /* Justifies the text */
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    
+    text-align: center; /* Justifies the text */
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .startContent {
+      padding: 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .startContent h2 {
+      font-size: 3rem; /* Smaller font size for mobile */
+    }
+  
+    .startContent p {
+      font-size: 1.5rem; /* Adjust paragraph font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .startContent h2 {
+      font-size: 3rem; /* Even smaller font size for mobile */
+    }
+  
+    .startContent p {
+      font-size: 1rem; /* Smaller font size for mobile */
+    }
+  }

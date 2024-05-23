@@ -20,12 +20,16 @@
   }
   
   .contactContent h1 {
-    font-size: 2.5rem; /* Adjusted font size */
+    color: #FF6600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem; /* Adjusted font size */
     margin-bottom: 20px; /* Adjusted margin */
   }
   
   .info {
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center these items if .info is a column */
     gap: 20px; /* Adjust the gap between info items */
@@ -51,7 +55,7 @@
     margin-top: 30px; /* Adjusted margin */
     padding: 15px 25px; /* Adjusted padding */
     font-weight: bold;
-    background-color: gold;
+    background-color: #FF6600;
     color: black;
     border: none;
     border-radius: 5px;
@@ -71,7 +75,7 @@
     }
   
     .contactContent h1 {
-      font-size: 2rem; /* Smaller font size for mobile */
+      font-size: 3rem; /* Smaller font size for mobile */
     }
   
     .info {
@@ -87,11 +91,11 @@
   
   @media (max-width: 480px) {
     .contactContent {
-      font-size: 1rem; /* Smaller font size for mobile */
+      font-size: 0.8rem; /* Smaller font size for mobile */
     }
   
     .contactContent h1 {
-      font-size: 1.5rem; /* Smaller font size for mobile */
+      font-size: 3rem; /* Smaller font size for mobile */
     }
   
     .info {
@@ -100,8 +104,7 @@
     }
   
     .estimateBtn, .estimateBtn a {
-      padding: 12px 20px; /* Smaller padding for mobile */
-      font-size: 0.875rem; /* Adjusted font size */
+      padding: 8px 16px; /* Smaller padding for mobile */
+      font-size: 1rem; /* Adjusted font size */
     }
   }
-  

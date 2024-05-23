@@ -7,7 +7,6 @@
   
   .servicesContent {
     background-color: rgb(39, 39, 39); /* Semi-transparent background */
-    
     margin: auto; /* Center the content */
     display: flex;
     flex-direction: column;
@@ -19,7 +18,8 @@
   }
   
   .header {
-    font-size: 2rem; /* Adjusted font size */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem; /* Adjusted font size */
     margin: 2rem;
     color: #FF6600; /* Main header color */
     margin-bottom: 20px; /* Spacing between header and subheader */
@@ -35,9 +35,11 @@
     display: flex;
     flex-direction: column; /* Stack articles vertically */
     justify-content: space-between; /* Space between paragraphs */
+    text-align: left;
     width: 100%; /* Ensure paragraphs fill the container */
     padding-left: 20px;
-    font-size: 1.4rem; /* Adjusted font size */
+    font-size: 3rem; /* Adjusted font size */
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .article {
@@ -52,7 +54,8 @@
   .servicesButton, .servicesButton a {
     background-color: #FF6600; /* Sets the button background to gold */
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 1px;
     text-align: center;
     color: #000; /* Sets the button text color to contrast, e.g., black */
@@ -60,34 +63,52 @@
     padding: 15px 30px; /* Adjust padding as needed */
     cursor: pointer; /* Changes the cursor to a pointer on hover */
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    text-decoration: none;
   }
   
   .servicesButton:hover {
-    background-color: darkgoldenrod; /* Darker gold color on hover for better interaction feedback */
+    background-color: rgb(0, 0, 0); /* Darker gold color on hover for better interaction feedback */
   }
   
   @media (max-width: 768px) {
-    .services {
-      padding: 30px 10px; /* Adjust padding for smaller screens */
-      margin: 50px 10px; /* Adjust margin for smaller screens */
-    }
+    
   
     .header {
-      font-size: 2rem; /* Smaller font size for mobile */
+      font-size: 3rem; /* Smaller font size for mobile */
     }
   
     .subHeader {
-      font-size: 1.5rem; /* Smaller font size for mobile */
+      font-size: 1.2rem; /* Smaller font size for mobile */
       margin-bottom: 30px; /* Adjusted spacing for mobile */
     }
   
     .articles {
-      font-size: 1rem; /* Adjust font size for readability */
+      font-size: 2rem; /* Adjust font size for readability */
       flex-direction: column; /* Stack articles vertically */
     }
   
     .servicesButton, .servicesButton a {
       font-size: 1rem; /* Smaller button font size */
       padding: 10px 20px; /* Adjust button padding */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      font-size: 3rem; /* Even smaller font size for mobile */
+    }
+  
+    .subHeader {
+      font-size: 1rem; /* Smaller font size for mobile */
+      margin-bottom: 20px; /* Adjusted spacing for mobile */
+    }
+  
+    .articles {
+      font-size: 1.5rem; /* Adjust font size for readability */
+    }
+  
+    .servicesButton, .servicesButton a {
+      font-size: 1rem; /* Smaller button font size */
+      padding: 8px 16px; /* Adjust button padding */
     }
   }

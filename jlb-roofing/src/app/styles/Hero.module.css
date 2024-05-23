@@ -32,7 +32,6 @@
     .heroContent button {
       background-color:#FF6600;  /* Sets the button background to gold */
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      
       font-size: 2rem;
       letter-spacing: 1px;
       text-align: center;
@@ -65,41 +64,38 @@
   
   
   
-  @media (max-width: 768px) {
-    .heroH1 {
-      font-size: 24px; /* Even smaller font size for mobile */
+    @media (max-width: 768px) {
+      .heroH1 {
+        font-size: 3rem; /* Smaller font size for tablets */
+      }
+    
+      .heroContent p {
+        font-size: 2rem; /* Adjust text size for readability */
+      }
+    
+      .heroContent button {
+        font-size: 1.5rem; /* Smaller button font size for compact appearance */
+      }
+    
+      .heroContent {
+        padding: 20px; /* Reduce padding to save space */
+      }
     }
-  
-    .heroP {
-      font-size: 16px; /* Adjust text size for readability */
+    
+    @media (max-width: 480px) {
+      .hero {
+        padding: 20px; /* Minimize padding for very small screens */
+      }
+    
+      .heroContent {
+        padding: 10px;
+      }
+    
+      .heroContent p {
+        font-size: 1.8rem; /* Adjust text size for small screens */
+      }
+    
+      .heroContent button {
+        padding: 10px 20px; /* Smaller buttons */
+      }
     }
-  
-    .heroContent button {
-      font-size: 14px; /* Smaller button font size for compact appearance */
-    }
-  
-    .heroContent {
-      height: auto;
-      padding: 30px; /* Reduce padding to save space */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .hero {
-      padding: 100px 10px; /* Minimize padding for very small screens */
-    }
-  
-    .heroContent {
-      padding: 20px;
-    }
-  
-    .ctaForm input[type="text"],
-    .ctaForm input[type="tel"],
-    .ctaForm input[type="email"] {
-      padding: 10px; /* Slightly smaller padding in inputs for small screens */
-    }
-  
-    .heroContent button {
-      padding: 10px 20px; /* Smaller buttons */
-    }
-  }

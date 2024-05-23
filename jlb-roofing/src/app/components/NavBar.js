@@ -36,12 +36,10 @@ const NavBar = () => {
       <nav className={`${styles.nav} ${isOpen ? styles.open : ''}`}>
         <ul>
           <li><a href="#hero">Home</a></li>
-          <li><a href="#ourMission">Our Mission</a></li>
+          <li><a href="#ourMission">About Us</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#ourWork">Our Work</a></li>
-          <li><a href="#theTeam">The Team</a></li>
-          <li><a href="#whyUS">Why us</a></li>
-          <li><a href="#googleReviews">Reviews</a></li>
+          <li><a href="#howWeStarted">How we Started</a></li>
           <li><a href="#contact">Lets Talk</a></li>
           
         </ul>

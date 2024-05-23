@@ -7,7 +7,7 @@
     justify-content: center; /* Horizontally centers children in the container */
     gap: 20px; /* Optional: Adds space between the image and text */
     width: 100%;
-    background-color: rgb(233, 229, 229);
+    background-color: rgb(236, 232, 232);
   }
   
   /* Style adjustments for the missionImage */
@@ -36,7 +36,8 @@
   }
   
   .missionContent h2 {
-    font-size: 2.5rem; /* Makes the h2 larger. Adjust size as needed */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem; /* Makes the h2 larger. Adjust size as needed */
     margin-bottom: 40px; /* Adds space below the h2 */
     color: #FF6600;
     justify-content: center;
@@ -50,25 +51,39 @@
   }
   
   .missionContent p {
-    font-size: 1.5rem; /* Adjust paragraph font size as needed */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem; /* Adjust paragraph font size as needed */
     max-width: 90%; /* Optionally limits the width of paragraphs for readability */
-    color: #fff;
+    color: #000000;
   }
   
   
   /* Responsive adjustments */
   @media (max-width: 768px) {
     .ourMission {
+      height: auto;
       flex-direction: column; /* Stacks the image and text vertically on smaller screens */
+      padding: 20px; /* Adjust padding for smaller screens */
     }
+    
     .missionImage, .missionContent {
+      flex: 1;
       max-width: 100%; /* Allows each to take full width of the container on small screens */
+
     }
+    .missionImage{
+      height: 50%;
+    }
+    
     .missionContent h2 {
-      font-size: 2rem; /* Smaller font size for smaller screens */
+      font-size: 3rem; /* Smaller font size for smaller screens */
+    }
+  
+    .missionContent h3 {
+      font-size: 1.2rem; /* Adjusted font size for smaller screens */
     }
   
     .missionContent p {
-      font-size: 1rem; /* Adjust paragraph font size for smaller screens */
+      font-size: 1.5rem; /* Adjust paragraph font size for smaller screens */
     }
   }
