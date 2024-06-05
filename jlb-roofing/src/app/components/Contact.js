@@ -14,7 +14,7 @@ const Contact = () => {
         <div className={styles.info} >
             <div className={styles.address}>
                 <address>
-                JBL Roofing LLC.<br/>
+                JLB Roofing LLC.<br/>
                 10575 S 420 E, <br/>
                 SANDY, UT 84070.
                 </address>

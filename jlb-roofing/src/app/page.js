@@ -1,3 +1,4 @@
+// src/app/page.js
 'use client'
 import Image from "next/image";
 import Head from "next/head";
@@ -17,9 +18,17 @@ const imagesList = [
   {url: '/JLbphoto2.png', alt: 'Second Image', type: 'image'},
   {url: '/JLBphoto3.png', alt: 'Third Image', type: 'image'},
   {url: '/JLBphoto4.png', alt: 'Fourth Image', type: 'image'},
-  {url: '/JLBphoto1.png', alt: 'Fourth Image', type: 'image'},
-];
+  {url: '/JLBphoto6.jpg', alt: 'Fourth Image', type: 'image'},
+  {url: '/JLBphoto7.jpg', alt: 'Fourth Image', type: 'image'},
+  {url: '/JLBphoto8.jpg', alt: 'Fourth Image', type: 'image'},
+  {url: '/JLBphoto9.jpg', alt: 'Fourth Image', type: 'image'},
+  {url: '/JLBphoto10.jpg', alt: 'Fourth Image', type: 'image'},
+  {url: '/JLBphoto11.jpg', alt: 'Fourth Image', type: 'image'},
+  {url: '/JLBphoto12.jpg', alt: 'Fourth Image', type: 'image'},
+  {url: '/JLBphoto13.jpg', alt: 'Fourth Image', type: 'image'},
+  {url: '/JLBphoto14.jpg', alt: 'Fourth Image', type: 'image'},
 
+];
 
 export default function Home() {
   return (
