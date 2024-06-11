@@ -1,101 +1,101 @@
 /* Hero.module.css */
-  .hero {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Adjusted to 50% of the viewport height */
-    text-align: center; /* Center the text content */
-    background-size: cover; /* Cover the entire area */
-    background-position: center; /* Center the background image */
-    position: relative; /* For positioning elements inside absolutely if needed */
-    color: #fff; /* Text color */
-    padding: 150px; /* Ensures content does not touch the edges */
-    background-image: url('/background.png');
-    background-size: cover ;
-    background-attachment: fixed;
-    background-position: center;
+.hero {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Adjusted to 50% of the viewport height */
+  text-align: center; /* Center the text content */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the background image */
+  position: relative; /* For positioning elements inside absolutely if needed */
+  color: #000; /* Text color */
+  padding: 150px; /* Ensures content does not touch the edges */
+  background-image: url('/background.webp');
+  background-size: cover ;
+  background-attachment: fixed;
+  background-position: center;
+}
+  
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Center the text inside the hero content */
+  border-radius: 10px;
+  width: 100%;
+}
+
+.heroContent button {
+  background-color:#FF6600;  /* Sets the button background to gold */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #000; /* Sets the button text color to contrast, e.g., black */
+  border: none; /* Removes any default border */
+  padding: 15px 30px; /* Adjust padding as needed */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  text-decoration: none;
+}
+
+.hero h1 {
+  color: #FF6600;
+  font-size: 7rem;
+  height: auto; 
+  margin-bottom: 15px ;
+
+}
+
+.heroContent P {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+
+.heroButton:hover {
+  background-color: rgb(211, 100, 10); /* Darker gold color on hover for better interaction feedback */
+}
+
+
+
+@media (max-width: 768px) {
+  .heroH1 {
+    font-size: 3rem; /* Smaller font size for tablets */
   }
-  
-    .heroContent {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center; /* Center the text inside the hero content */
-      border-radius: 10px;
-      width: 100%;
-    }
-  
-    
-  
-    .heroContent button {
-      background-color:#FF6600;  /* Sets the button background to gold */
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: 2rem;
-      letter-spacing: 1px;
-      text-align: center;
-      color: #000; /* Sets the button text color to contrast, e.g., black */
-      border: none; /* Removes any default border */
-      padding: 15px 30px; /* Adjust padding as needed */
-      cursor: pointer; /* Changes the cursor to a pointer on hover */
-      transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-      text-decoration: none;
-    }
-  
-    .heroH1 {
-      color: #FF6600;
-      font-size: 7rem;
-      height: auto; 
-      margin-bottom: 15px ;
-  
-    }
-  
-    .heroContent P {
-      color: rgb(255, 255, 255);
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 3rem;
-    }
-  
-    
-    .heroButton:hover {
-      background-color: rgb(211, 100, 10); /* Darker gold color on hover for better interaction feedback */
-    }
-  
-  
-  
-    @media (max-width: 768px) {
-      .heroH1 {
-        font-size: 3rem; /* Smaller font size for tablets */
-      }
-    
-      .heroContent p {
-        font-size: 2rem; /* Adjust text size for readability */
-      }
-    
-      .heroContent button {
-        font-size: 1.5rem; /* Smaller button font size for compact appearance */
-      }
-    
-      .heroContent {
-        padding: 20px; /* Reduce padding to save space */
-      }
-    }
-    
-    @media (max-width: 480px) {
-      .hero {
-        padding: 20px; /* Minimize padding for very small screens */
-      }
-    
-      .heroContent {
-        padding: 10px;
-      }
-    
-      .heroContent p {
-        font-size: 1.8rem; /* Adjust text size for small screens */
-      }
-    
-      .heroContent button {
-        padding: 10px 20px; /* Smaller buttons */
-      }
-    }
+
+  .heroContent p {
+    font-size: 2rem; /* Adjust text size for readability */
+  }
+
+  .heroContent button {
+    font-size: 1.5rem; /* Smaller button font size for compact appearance */
+  }
+
+  .heroContent {
+    padding: 20px; /* Reduce padding to save space */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 20px; /* Minimize padding for very small screens */
+  }
+
+  .heroContent {
+    padding: 10px;
+  }
+
+  .heroContent p {
+    font-size: 1.8rem; /* Adjust text size for small screens */
+  }
+
+  .heroContent button {
+    padding: 10px 20px; /* Smaller buttons */
+  }
+}

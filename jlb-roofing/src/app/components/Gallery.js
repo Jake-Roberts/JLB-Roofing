@@ -1,7 +1,7 @@
 
 'use client'
 import React, {useRef, useEffect, useCallback} from "react";
-import  useEmblaCarousel  from 'embla-carousel-react';
+import useEmblaCarousel from 'embla-carousel-react';
 import styles from '../styles/Gallery.module.css';
 
 
@@ -45,13 +45,13 @@ const Gallery = ({ images }) => {
     return (
       <>
         <div className={styles.container}>
-          <h1 className={styles.ourWork}>Our Work</h1>
+          <h2 className={styles.ourWork}>Our Work</h2>
           <div className={styles.embla} ref={emblaRef}>
             <div className={styles.embla__container}>
               {images.map((item, index) => (
                 <div className={styles.embla__slide} key={index}>
                 {item.type === 'image' ? (
-                  <img src={item.url} alt={images.alt} className={styles.embla__image}/>
+                  <img src={item.url} alt={item.alt} className={styles.embla__image}/>
                 ) : (
                   <video controls className={styles.embla__image}>
                     <source src={item.url} type="video/mp4"/>

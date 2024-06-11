@@ -1,17 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import styles from "../styles/AboutUs.module.css"
-import Siding1 from "../../../public/Siding1.jpg"
-import { useEffect, useRef } from "react";
-
-
+import Siding1 from "../../../public/Siding1.webp"
 
 const OurMission = () => {
-    
+
     return (
         <section className={styles.ourMission}>
             <div className={styles.missionImage}>
-                < Image src={Siding1}  className={styles.missionImage}/>
+                < Image src={Siding1} alt="a roof with new shingles being installed" className={styles.missionImage}/>
             </div>
             <div className={styles.missionContent}>
                 <h2>About us!</h2>

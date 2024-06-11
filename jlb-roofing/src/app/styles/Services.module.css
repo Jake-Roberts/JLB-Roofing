@@ -1,114 +1,117 @@
 /* Services.module.css */
 
 .services {
-    height: auto;
-    color: white; /* Default text color */
-  }
+  height: auto;
+  color: white; /* Default text color */
+}
+
+.servicesContent {
+  background-color: rgb(39, 39, 39); /* Semi-transparent background */
+  margin: auto; /* Center the content */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items vertically */
+  height: auto;
+  justify-content: center;
+  background-position: center;
+  padding: 50px;
+}
+
+.header {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5rem; /* Adjusted font size */
+  margin: 2rem;
+  color: #FF6600; /* Main header color */
+  margin-bottom: 20px; /* Spacing between header and subheader */
+}
+
+.subHeader {
+  font-size: 1.5rem; /* Adjusted font size */
+  color: #ffffff; /* Subheader color */
+  margin-bottom: 50px; /* Adjusted spacing between subheader and paragraphs */
+}
+
+.articles {
+  display: flex;
+  flex-direction: column; /* Stack articles vertically */
+  justify-content: space-between; /* Space between paragraphs */
+  text-align: left;
+  width: 100%; /* Ensure paragraphs fill the container */
+  padding-left: 20px;
+  font-size: 3rem; /* Adjusted font size */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.article {
+  margin-bottom: 20px; /* Add margin between articles */
+  color: white; /* Paragraph text color */
+}
+
+.servicesButtonContainer {
+  margin-top: 30px; /* Adjusted margin */
+}
+
+.servicesButton {
+  background-color: #FF6600; /* Sets the button background to gold */
+  border: none; /* Removes any default border */
+  padding: 15px 30px; /* Adjust padding as needed */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.servicesButton a {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #000; /* Sets the button text color to contrast, e.g., black */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  text-decoration: none;
+}
+
+.servicesButton:hover {
+  background-color: rgb(0, 0, 0); /* Darker gold color on hover for better interaction feedback */
+}
+
+.servicesButton a:hover {
+  color: #FF6600;
+}
+
+@media (max-width: 768px) {
   
-  .servicesContent {
-    background-color: rgb(39, 39, 39); /* Semi-transparent background */
-    margin: auto; /* Center the content */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center items vertically */
-    height: auto;
-    justify-content: center;
-    background-position: center;
-    padding: 50px;
-  }
-  
+
   .header {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 5rem; /* Adjusted font size */
-    margin: 2rem;
-    color: #FF6600; /* Main header color */
-    margin-bottom: 20px; /* Spacing between header and subheader */
+    font-size: 3rem; /* Smaller font size for mobile */
   }
-  
+
   .subHeader {
-    font-size: 1.5rem; /* Adjusted font size */
-    color: #ffffff; /* Subheader color */
-    margin-bottom: 50px; /* Adjusted spacing between subheader and paragraphs */
+    font-size: 1.2rem; /* Smaller font size for mobile */
+    margin-bottom: 30px; /* Adjusted spacing for mobile */
   }
-  
+
   .articles {
-    display: flex;
+    font-size: 2rem; /* Adjust font size for readability */
     flex-direction: column; /* Stack articles vertically */
-    justify-content: space-between; /* Space between paragraphs */
-    text-align: left;
-    width: 100%; /* Ensure paragraphs fill the container */
-    padding-left: 20px;
-    font-size: 3rem; /* Adjusted font size */
-    font-family: Arial, Helvetica, sans-serif;
   }
-  
-  .article {
-    margin-bottom: 20px; /* Add margin between articles */
-    color: white; /* Paragraph text color */
-  }
-  
-  .servicesButtonContainer {
-    margin-top: 30px; /* Adjusted margin */
-  }
-  
+
   .servicesButton, .servicesButton a {
-    background-color: #FF6600; /* Sets the button background to gold */
-    font-weight: bold;
-    font-size: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 1px;
-    text-align: center;
-    color: #000; /* Sets the button text color to contrast, e.g., black */
-    border: none; /* Removes any default border */
-    padding: 15px 30px; /* Adjust padding as needed */
-    cursor: pointer; /* Changes the cursor to a pointer on hover */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-    text-decoration: none;
+    font-size: 2rem; /* Smaller button font size */
+    padding: 8px 16px; /* Adjust button padding */
   }
-  
-  .servicesButton:hover {
-    background-color: rgb(0, 0, 0); /* Darker gold color on hover for better interaction feedback */
+}
+
+@media (max-width: 480px) {
+  .header {
+    font-size: 2.5rem; /* Even smaller font size for mobile */
   }
-  
-  @media (max-width: 768px) {
-    
-  
-    .header {
-      font-size: 3rem; /* Smaller font size for mobile */
-    }
-  
-    .subHeader {
-      font-size: 1.2rem; /* Smaller font size for mobile */
-      margin-bottom: 30px; /* Adjusted spacing for mobile */
-    }
-  
-    .articles {
-      font-size: 2rem; /* Adjust font size for readability */
-      flex-direction: column; /* Stack articles vertically */
-    }
-  
-    .servicesButton, .servicesButton a {
-      font-size: 1rem; /* Smaller button font size */
-      padding: 10px 20px; /* Adjust button padding */
-    }
+
+  .subHeader {
+    font-size: 1rem; /* Smaller font size for mobile */
+    margin-bottom: 20px; /* Adjusted spacing for mobile */
   }
-  
-  @media (max-width: 480px) {
-    .header {
-      font-size: 3rem; /* Even smaller font size for mobile */
-    }
-  
-    .subHeader {
-      font-size: 1rem; /* Smaller font size for mobile */
-      margin-bottom: 20px; /* Adjusted spacing for mobile */
-    }
-  
-    .articles {
-      font-size: 1.5rem; /* Adjust font size for readability */
-    }
-  
-    .servicesButton, .servicesButton a {
-      font-size: 1rem; /* Smaller button font size */
-      padding: 8px 16px; /* Adjust button padding */
-    }
+
+  .articles {
+    font-size: 1.5rem; /* Adjust font size for readability */
   }
+}

@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <section className={styles.contactContainer}>    
         < div className={styles.contactContent}>
-                <h1>Let's Talk!</h1>
+                <h2>Let's Talk!</h2>
         <div className={styles.info} >
             <div className={styles.address}>
                 <address>

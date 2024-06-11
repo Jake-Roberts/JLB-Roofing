@@ -1,36 +1,35 @@
 /* Start.module.css */
 .startContainer {
-    color: #333; /* Dark grey text */
-    justify-content: center;
-    align-items: center;
-    height: auto;
+  color: #333; /* Dark grey text */
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }
 
 .startContent {
-    justify-content: center;
-    align-content: center;
-    margin: auto; /* Centers the content */
-    padding: 20px;
-    background: rgb(236, 232, 232); /* White background for the content */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds subtle shadow */
+  justify-content: center;
+  align-content: center;
+  margin: auto; /* Centers the content */
+  padding: 20px;
+  background: rgb(236, 232, 232); /* White background for the content */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds subtle shadow */
 }
 
 .startContent h2 {
-    justify-content: center;
-    font-size: 5rem;
-    align-items: center;
-    color: #FF6600; /* Blue color for headings */
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-bottom: 20px; /* Space below the heading */
-    text-align: center;
+  justify-content: center;
+  font-size: 5rem;
+  align-items: center;
+  color: #FF6600; /* Orange color for headings */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-bottom: 20px; /* Space below the heading */
+  text-align: center;
 }
 
 .startContent p {
-    color:#000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    
-    text-align: center; /* Justifies the text */
+  color:#000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-align: center; /* Justifies the text */
 }
 
 /* Responsive adjustments */

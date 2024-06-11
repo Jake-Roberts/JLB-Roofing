@@ -1,31 +1,29 @@
 /* Gallery.module.css */
-
 .container{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
   background-color: rgba(0, 0, 0, 0.705);
+  padding: 80px 0;
 }
+
 .ourWork {
   margin-top: 100px;
   justify-content: center;
   font-size: 5rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #FF6600;
 }
-
 
 .embla {
   display: flex;
   flex-direction: column;
   position: relative;
-  max-width: 50%; /* Adjust based on wireframe */
-  margin: auto;
+  max-width: 70%; /* Adjust based on wireframe */
+  margin: 0 auto;
   overflow: hidden;
-  
 }
 
 .embla__container {
@@ -34,8 +32,7 @@
 
 .embla__slide {
   position: relative;
-  flex: 0 0 60%; /* Adjust based on your design, use percentage to control size */
-  
+  flex: 0 0 50%; /* Adjust based on your design, use percentage to control size */
 }
 
 .embla__image {
@@ -71,26 +68,30 @@
   align-items: center;
 }
 
-
+.seeMore, .seeMore a {
+    background-color: FF6600; /* Sets the button background to orange */
+    border: none; /* Removes any default border */
+    padding: 15px 30px; /* Adjust padding as needed */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    margin: 100px auto;
+}
 
 .seeMore, .seeMore a {
-    background-color: #FF6600; /* Sets the button background to gold */
     font-weight: bold;
     font-size: 2rem;
     letter-spacing: 1px;
     text-align: center;
     color: #000; /* Sets the button text color to contrast, e.g., black */
-    border: none; /* Removes any default border */
-    padding: 15px 30px; /* Adjust padding as needed */
-    cursor: pointer; /* Changes the cursor to a pointer on hover */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-    margin-bottom: 100px;
     text-decoration: none;
 }
 
 .seeMore:hover  {
   background-color: rgb(0, 0, 0);
-  color: rgb(134, 96, 0);
+}
+
+.seeMore a:hover  {
+  color: #FF6600;
 }
 
 /* Gallery.module.css media queries */
@@ -123,8 +124,21 @@
     font-size: 3rem; /* Even smaller font size for mobile */
   }
 
+  .container {
+    padding: 50px 0;
+  }
+
   .embla {
     max-width: 100%; /* Full width for smaller screens */
+  }
+
+  .embla__slide {
+    position: relative;
+    flex: 0 0 70%; /* Adjust based on your design, use percentage to control size */
+  }
+
+  .buttonsContainer {
+    bottom: 5px; /* Adjusted bottom position */
   }
 
   .customArrow {
@@ -132,7 +146,11 @@
     height: 20px; /* Adjusted height */
   }
 
-  .seeMore, .seeMore a {
+  .seeMore {
+    margin-top: 20px;
+  }
+
+  .seeMore a {
     font-size: 1.5; /* Adjusted font size for mobile */
     padding: 8px 16px; /* Adjusted padding for mobile */
   }

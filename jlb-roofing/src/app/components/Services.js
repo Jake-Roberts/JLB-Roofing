@@ -8,7 +8,7 @@ const Services = () => {
     return (
         <section className={styles.services}>
             <div className={styles.servicesContent}>
-                <h1 className={styles.header}>What we Offer </h1>
+                <h2 className={styles.header}>What we Offer </h2>
                 <div className={styles.articles}>
                     <article className={styles.article}>JBL Roofing Utah offers a range of High Quality roofing solutions to cater to your needs. Our services include:
                         <br/>   - Roof Installation and Replacement

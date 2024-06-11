@@ -1,13 +1,8 @@
 import React from "react";
-import Image from "next/image";
 import styles from "../styles/Start.module.css"
-import Siding1 from "../../../public/Siding1.jpg"
-import { useEffect, useRef } from "react";
-
-
 
 const HowWeStarted = () => {
-    
+
     return (
         <section className={styles.startContainer}>
             <div className={styles.startContent}>
@@ -18,7 +13,6 @@ const HowWeStarted = () => {
                 At JLB Roofing, every project is an opportunity to demonstrate our commitment to quality and customer satisfaction. We are excited about what the future holds and grateful for the trust our clients have placed in us.
                 </p>
             </div>
-
         </section>
     )
 }
