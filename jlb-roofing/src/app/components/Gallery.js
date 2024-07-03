@@ -66,7 +66,7 @@ const Gallery = ({ images }) => {
             </div>
           </div>
           
-          <button className={styles.seeMore} ><a href="https://www.facebook.com/JLBRoofs/">See More!</a></button>
+          <button className={styles.seeMore} ><a href="https://www.facebook.com/JlbRoofingUtah">See More!</a></button>
         </div>
         
       </>
